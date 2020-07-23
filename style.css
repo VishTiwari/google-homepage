@@ -1,0 +1,10 @@
+    body{
+background: rgb(53,54,58);
+    }
+
+    .logo{
+        position: absolute;
+        margin-left: 20px;
+        margin-top: 10px;
+        display: inline; 
+    }
