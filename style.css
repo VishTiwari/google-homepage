@@ -1,10 +1,22 @@
-    body{
+     body{
 background: rgb(53,54,58);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
     }
 
     .logo{
-        position: absolute;
-        margin-left: 20px;
-        margin-top: 10px;
-        display: inline; 
+        padding: 250px 0 0px 500px;
     }
+
+    .header{
+        float: right;
+    }
+
+    .header a{
+        margin:10px;
+    }
+
+
+
+   
