@@ -5,18 +5,44 @@ padding: 0;
 box-sizing: border-box;
     }
 
+
     .logo{
-        padding: 250px 0 0px 500px;
+        padding: 250px 0px 0px 500px;
     }
 
     .header{
         float: right;
     }
-
-    .header a{
-        margin:10px;
+    .iconify{
+        color: #FFFFFF;
+        width: 30px;
+        height: 25px; 
+        padding: 10px 0px 0px 0px;
     }
 
+    .footer{
+        float: right;
+        text-decoration: none;
+    }
 
+    input[type=search-button] {
+        width: 300px;
+        padding: 250px 0px 0px 500px;
+      }
 
-   
+    .header a, .header button
+     {
+        margin: 10px;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    .header button{
+        background: #4484f1;
+        padding: 6px; 
+        font-size: 14px;
+        border-radius: 10%;
+        font-weight: bold;
+    }
+
