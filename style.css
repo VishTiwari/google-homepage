@@ -1,8 +1,8 @@
      body{
-background: rgb(53,54,58);
-margin: 0;
-padding: 0;
-box-sizing: border-box;
+        background: rgb(53,54,58);
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
 
@@ -20,14 +20,50 @@ box-sizing: border-box;
         padding: 10px 0px 0px 0px;
     }
 
-    .footer{
-        float: right;
-        text-decoration: none;
+    .box { 
+        bottom: 350px;
+        left: 355px;
+        position: absolute;
+      }
+      
+      .box .container-1 input{
+         width: 600px;
+         height: 45px; 
+         border-radius: 25px;
+         position: relative;
+         text-align: center;
+      }
+      
+    .footer, .footer a
+    {
+        text-align: center;
+        color: #FFF;
+        font-size: 20px;
     }
 
-    input[type=search-button] {
-        width: 300px;
-        padding: 250px 0px 0px 500px;
+    .country{
+        position: absolute;
+        bottom: 425px;
+        left: 770px;
+    }
+    
+    .footer-left{
+        position: absolute;
+        bottom: 90px;
+        left: 20px;
+        font-size: 18px;
+    }
+    .footer-right{
+        position: absolute;
+        bottom: 90px;
+        right: 20px;
+        font-size: 18px;
+    }
+
+    .box {
+        margin-right:auto;
+        margin-left:auto;
+        width:100px;
       }
 
     .header a, .header button
