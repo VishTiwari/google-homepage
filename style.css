@@ -7,7 +7,9 @@
 
 
     .logo{
-        padding: 250px 0px 0px 500px;
+        bottom: 400px;
+        left: 485px;
+        position: absolute;
     }
 
     .header{
